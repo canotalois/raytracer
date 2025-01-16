@@ -1,7 +1,8 @@
 # Raytracer - 3D Scene Renderer Configuration Program
 
 ## Overview
-This project is a 3D scene rendering program that allows users to define and render 3D environments through a configuration file. Users can customize camera settings, shapes, materials, and lighting to create visually compelling scenes.
+This project is a 3D scene rendering program that allows users to define and render 3D environments through a configuration file. Users can customize camera settings, shapes, materials, and lighting to create visually compelling scenes.  
+[Preview](https://files.catbox.moe/c2i0ex.ppm)
 
 ## Features
 - **Camera Configuration**: Set up the camera's aspect ratio, field of view, and position.
