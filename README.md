@@ -11,7 +11,26 @@ This project is a 3D scene rendering program that allows users to define and ren
 - **Lighting**: Add dynamic lighting to enhance realism.
 - **Transformations**: Apply translation, rotation, and scaling to objects.
 
+## Compilation Guide
+### General Instructions
+1. Run the provided script to configure and compile the project:
+   ```bash
+   ./run_cmake.sh
+   ```
+2. Execute the program with the desired configuration file:
+   ```bash
+   ./raytracer configFiles/main.cfg
+   ```
+
+### macOS Compilation
+To compile on macOS, ensure you have GCC installed via Homebrew and set the following environment variables:
+```bash
+export CC=/opt/homebrew/Cellar/gcc/13.2.0/bin/gcc-13
+export CXX=/opt/homebrew/Cellar/gcc/13.2.0/bin/g++-13
+```
+Then follow the general instructions.
+
 ## Usage
 1. Edit the configuration file to define your scene.
-2. Run the program to render the scene.
+2. Run the program as described in the compilation guide.
 3. Adjust settings as needed to refine the output.
